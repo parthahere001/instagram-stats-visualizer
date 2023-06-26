@@ -32,6 +32,7 @@ This project consists of a Django backend and a Flutter app that work together t
 
 2. Install dependencies using `requirements.txt`:
    ```bash
+   cd backend/
    pip install -r requirements.txt
 ## Obtaining Access Token
 Obtain an Instagram Graph API access token:
@@ -42,6 +43,7 @@ Obtain an Instagram Graph API access token:
 
 **Start the Django development server (i.e. host the Django server)**
 ```bash
+
 python manage.py runserver
 ```
 
@@ -59,6 +61,7 @@ Open the Flutter project in your preferred IDE or editor.
 3. Build and run the Flutter app on an emulator or a physical device:
 
 ```bash
+cd app/instaviz/
 flutter run
 ```
 The app will be installed and launched on the selected device/emulator.
